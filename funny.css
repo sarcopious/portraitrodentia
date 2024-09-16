@@ -1,3 +1,210 @@
+
+html, body {
+    background-color: initial;
+}
+
+.main-content {
+    max-width: initial;
+    margin: initial;
+}
+
+.character-stream-container {
+    height: initial;
+    padding: initial;
+}
+
+.character-stream-profile-container {
+    position: initial;
+}
+
+.character-stream-profile-picture-portrait {
+    height: initial;
+}
+
+.character-stream-profile-name {
+    position: initial;
+    width: initial;
+    top: initial;
+    left: initial;
+    font-size: initial;
+    font-family: initial;
+    color: initial;
+}
+
+.character-stream-profile-picture {
+    position: initial;
+    height: initial;
+    border-radius: initial;
+    top: initial;
+    left: initial;
+    transition: initial;
+}
+
+.character-stream-profile-picture-death {
+    filter: initial;
+}
+
+.character-stream-pe-picture {
+    position: initial;
+    height: initial;
+    bottom: initial;
+    left: initial;
+}
+
+.character-stream-pe-value {
+    position: initial;
+    width: initial;
+    bottom: initial;
+    left: initial;
+    color: initial;
+    font-family: initial;
+    font-size: initial;
+    text-align: initial;
+    font-weight: initial;
+    text-shadow: initial;
+}
+
+.character-stream-bar-pv {
+    z-index: initial;
+    position: initial;
+    width: initial;
+    height: initial;
+    border: initial;
+    left: initial;
+    bottom: initial;
+    display: initial;
+    align-items: initial;
+    justify-content: initial;
+}
+
+.character-stream-bar-san {
+    z-index: initial;
+    position: initial;
+    width: initial;
+    height: initial;
+    border: initial;
+    left: initial;
+    bottom: initial;
+    display: initial;
+    align-items: initial;
+    justify-content: initial;
+}
+
+.character-stream-bar-pv-background {
+    width: initial;
+    height: initial;
+    background-color: initial;
+    display: initial;
+    align-items: initial;
+}
+
+.character-stream-bar-pv-current {
+    width: initial;
+    height: initial;
+    background-color: initial;
+    display: initial;
+    align-items: initial;
+    transition: initial;
+}
+
+.character-stream-bar-san-background {
+    width: initial;
+    height: initial;
+    background-color: initial;
+    display: initial;
+    align-items: initial;
+}
+
+.character-stream-bar-san-current {
+    width: initial;
+    height: initial;
+    background-color: initial;
+    display: initial;
+    align-items: initial;
+    justify-content: initial;
+    transition: initial;
+}
+
+.character-stream-stats-background-picture {
+    position: initial;
+    height: initial;
+}
+
+.pv-background-picture {
+    width: initial;
+}
+
+.san-background-picture {
+    width: initial;
+}
+
+.character-stream-bar-value-pv {
+    z-index: initial;
+    position: initial;
+    width: initial;
+    text-align: initial;
+    left: initial;
+    font-size: initial;
+    font-weight: initial;
+    text-shadow: initial;
+    color: initial;
+}
+
+.character-stream-bar-value-san {
+    z-index: initial;
+    position: initial;
+    width: initial;
+    text-align: initial;
+    left: initial;
+    font-size: initial;
+    font-weight: initial;
+    text-shadow: initial;
+    color: initial;
+}
+
+.character-stream-dice-roll {
+    position: initial;
+    bottom: initial;
+    left: initial;
+}
+
+.character-stream-dice-roll-second {
+    position: initial;
+    bottom: initial;
+    left: initial;
+}
+
+.character-stream-dice-roll-picture {
+    height: initial;
+    position: initial;
+}
+
+.character-stream-dice-roll-value {
+    position: initial;
+    width: initial;
+    text-align: initial;
+    top: initial;
+    left: initial;
+    z-index: initial;
+    font-size: initial;
+    text-shadow: initial;
+    -webkit-text-stroke: initial;
+    color: initial;
+}
+
+.slide-fade-enter-active {
+    transition: initial;
+}
+
+.slide-fade-leave-active {
+    transition: initial;
+}
+
+.slide-fade-enter-from, .slide-fade-leave-to {
+    transform: initial;
+    opacity: initial;
+}
+
 .character-stream-profile-picture {
     width: 25rem;
     position: relative;
