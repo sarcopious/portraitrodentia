@@ -263,13 +263,11 @@ html, body {
     mix-blend-mode: normal;
 }
 @container style(--0448edab: 33%) {
-  @container not style(--0448edab: 66%) {
 
 .san-background-picture {
     content:url('https://github.com/sarcopious/portraitrodentia/blob/main/af2.png?raw=true');
     }
   }
-}
 
 
   .san-background-picture {
