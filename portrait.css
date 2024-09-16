@@ -1,4 +1,7 @@
 
+@import url('https://raw.githubusercontent.com/sarcopious/portraitrodentia/main/funny.css');
+
+
 html, body {
     background-color: initial;
 }
@@ -206,6 +209,9 @@ html, body {
 }
 
 
+
+
+
 .character-stream-profile-picture {
     width: 25rem;
     position: relative;
@@ -213,59 +219,79 @@ html, body {
     object-fit: cover;
     z-index: 0;
 }
-.character-stream-bar-pv-background {
-    position: absolute;
-    top: 0.375rem;
-    left: 0.375rem;
-    border-radius: 100px 100px 150px 10px;
-    border: 2.2px solid #fff;
-    box-sizing: border-box;
-    width: 1rem;
-    height: 17.688rem;
-    mix-blend-mode: overlay;
-}
-.character-stream-bar-pv-current::before {
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    border-radius: 50px 50px 27px 7px;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(213, 44, 44, 0.43), rgba(33, 0, 0, 0.43));
-    width: 1rem;
-    height: 17.688rem;
-    mix-blend-mode: hard-light;
-}
-.character-stream-bar-pv-current::after {
-    position: absolute;
-    top: 0rem;
-    left: 0rem;
-    box-shadow: 0px 8px 12px 6px rgba(255, 255, 255, 0.5), 0px 4px 4px rgba(255, 255, 255, 0.3);
-    border-radius: 50px 50px 40px 10px;
-    background-color: #fff;
-    width: 1rem;
-    height: 17.688rem;
-    mix-blend-mode: overlay;
-}
 .character-stream-bar-pv-current {
-    position: absolute;
-    top: 0.375rem;
-    left: 0.375rem;
-    width: 1rem;
-    height: 17.688rem;
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 100px 100px 150px 10px;
+  	border: 2.2px solid #fff;
+  	box-sizing: border-box;
+  	mix-blend-mode: overlay;
+}
+.character-stream-bar-value-pv {
+        color: #fff0;
+  	position: absolute;
+  	top: 0rem;
+  	left: 0rem;
+  	border-radius: 25px 25px 175px 25px;
+  	background: radial-gradient(50% 50% at 50% 50%, rgba(213, 44, 44, 0), rgba(85, 8, 8, .5)), #fff;
+  	width: 1rem;
+  	height: var(--41f9f2db);
+  	mix-blend-mode: overlay;
+    transition: height 1s ease-in-out
+}
+.character-stream-bar-pv-background {
+  	width: 1rem;
+  	position: relative;
+  	border-radius: 50px 50px 150px 25px;
+  	height: 17.688rem;
 }
 .character-stream-bar-pv {
-    align-self: stretch;
-    position: relative;
-    border-radius: 50px 50px 150px 50px;
-    background-color: #5f1111;
-    height: 18.5rem;
-    overflow: hidden;
-    flex-shrink: 0;
-    mix-blend-mode: normal;
+  	position: relative;
+  	border-radius: 50px 50px 150px 50px;
+  	background-color: #5f1111;
+  	width: 100%;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 0.375rem;
+  	box-sizing: border-box;
+  	mix-blend-mode: normal;
 }
+
+
+
+@container style(--0448edab: 0%) {
+
+.san-background-picture {
+    content:url('https://github.com/sarcopious/portraitrodentia/blob/main/af3.png?raw=true');
+    }
+  }
+
 @container style(--0448edab: 33%) {
 
 .san-background-picture {
     content:url('https://github.com/sarcopious/portraitrodentia/blob/main/af2.png?raw=true');
+    }
+  }
+  
+  @container style(--0448edab: 66%) {
+
+.san-background-picture {
+    content:url('https://github.com/sarcopious/portraitrodentia/blob/main/af1.png?raw=true');
+    }
+  }
+  
+  @container style(--0448edab: 100%) {
+
+.san-background-picture {
+    content:url('https://github.com/sarcopious/portraitrodentia/blob/main/af0.png?raw=true');
     }
   }
 
@@ -319,7 +345,7 @@ html, body {
     box-sizing: border-box;
 }
 
-    .character-stream-profile-picture-portrait, .character-stream-pe-value, .character-stream-pe-picture, .character-stream-profile-name, .character-stream-bar-value-san, .character-stream-profile-name, .character-stream-bar-value-pv{
+ .character-stream-profile-picture-portrait, .character-stream-pe-value, .character-stream-pe-picture, .character-stream-profile-name, .character-stream-bar-value-san, .character-stream-profile-name{
         display: none;
         height: 0rem
     }
@@ -336,5 +362,4 @@ html, body {
     transform: translateY(-80px);
     opacity: 0
 }
-
 
